@@ -1,0 +1,11 @@
+@{
+  Layout="Shared/_Layout.cshtml";
+}
+<h2>Anagram</h2>
+<form action="/results">
+  <label for="word">Enter a word: </label>
+  <input name="word" id="word" type="text">
+  <label for="list-word">Enter a list of possible anagrams, separate by ",": </label>
+  <input name="list-word" id="list-word" type="text">
+  <button type="submit" class="btn btn-md btn-primary">Submit</button>
+</form>
